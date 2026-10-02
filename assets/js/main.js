@@ -54,3 +54,47 @@
   box.addEventListener('click',function(e){if(e.target===box)close()});
   document.addEventListener('keydown',function(e){if(!box.classList.contains('is-open'))return;if(e.key==='Escape')close();if(e.key==='ArrowLeft')show(i-1);if(e.key==='ArrowRight')show(i+1)});
 })();
+
+// Desktop sidebar position. The menu keeps its native wheel/touch/keyboard scroll.
+(function () {
+  var header = document.querySelector('.site-header');
+  if (!header) return;
+  var dot = document.createElement('span');
+  dot.className = 'sidebar-scroll-dot';
+  dot.setAttribute('aria-hidden', 'true');
+  dot.hidden = true;
+  document.body.appendChild(dot);
+  var desktop = window.matchMedia('(min-width: 901px)');
+  function update() {
+    var range = header.scrollHeight - header.clientHeight;
+    dot.hidden = !desktop.matches || range <= 1;
+    if (dot.hidden) return;
+    var progress = Math.max(0, Math.min(1, header.scrollTop / range));
+    var travel = Math.max(0, header.clientHeight - 32);
+    dot.style.transform = 'translateY(' + (12 + progress * travel) + 'px)';
+  }
+  header.addEventListener('scroll', update, { passive: true });
+  window.addEventListener('resize', update);
+  if ('ResizeObserver' in window) {
+    var observer = new ResizeObserver(update);
+    observer.observe(header);
+    var nav = header.querySelector('.nav');
+    if (nav) observer.observe(nav);
+  }
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(update);
+  update();
+})();
+
+// INTERVAL uses local device time; read a fresh Date on every tick.
+(function () {
+  var clock = document.querySelector('.interval-clock');
+  if (!clock) return;
+  function update() {
+    var now = new Date();
+    var parts = [now.getHours(), now.getMinutes(), now.getSeconds()];
+    clock.textContent = parts.map(function (part) { return String(part).padStart(2, '0'); }).join(':');
+    clock.setAttribute('datetime', clock.textContent);
+  }
+  update();
+  window.setInterval(update, 1000);
+})();
