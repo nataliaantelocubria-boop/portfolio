@@ -115,3 +115,25 @@ No comprobado: navegadores distintos de Chromium, dispositivos físicos, lectore
 - SHINE category thumbnail changed to handbag context image.
 - CLAMP expanded with all newly supplied imagery; project-record link removed.
 - GEMHYPE PDF screenshot imagery removed; full strategy PDF link retained.
+
+
+## 2026-10-02 — Strategic review: evidence over claims
+- Applied the complete `Texto pegado(6).txt` after repository, published-page and decision-history audit.
+- Preserved the visual identity, navigation, page architecture, typefaces, photos, equal home image sizing, symmetric margins, clock, sidebar indicator and large LATENT hero.
+- Home selection returns explicitly to INSIDE OUT / STACK / INTERVAL / LATENT, overriding the preceding eight-entry selection without reverting its visual treatment.
+- Rewrote About around the practical contributions of engineering studies, glass and jewellery to product design.
+- HOW I THINK uses existing project drawings/sketches and confirmed decisions within DEFINE / TEST / DOCUMENT / CONNECT.
+- INSIDE OUT: added constraint / decision / result blocks for engraving adaptation, manual operations, removable glass fixing and lighting access. Removed unverified collaborator attribution from public copy.
+- INTERVAL: shortened conceptual copy, added confirmed mechanism/disassembly research and clarified physical stone versus visual watch proposal.
+- FALLA: centred copy on varied agate shapes, brass support, connections and composition rather than generic imperfection rhetoric.
+- CLAMP: reinforced visible assembly and perceived value; removed the public pending-confirmation paragraph without assigning unknown specifications.
+- GEMHYPE: condensed eight repetitive sections into five; preserved the original mockup, strategy PDF and complementary positioning, without claiming measured results.
+- STACK: clarified academic/rendered status, linked ergonomic and technical evidence to use and connection decisions, retained all existing images.
+- LATENT and SHINE: project copy and photographs retained; metadata/alt annotations only where necessary.
+- Corrected malformed STACK/INTERVAL project-meta paragraphs. Removed obsolete production/TODO comments from HTML and moved factual backlog to internal documentation.
+- Completed page-specific descriptions, canonical URLs and Open Graph metadata for all 15 public pages, using the actual Pages URL and existing assets. Retained the existing favicon.
+- No image, PDF, content asset or project route deleted. No generated imagery, framework, decorative effect, invented fact or new project added.
+- Internal pending facts/assets and known historical source-sheet discrepancies are listed in PORTFOLIO_MASTER_BRIEF.md. Earlier history is preserved.
+- Technical QA corrections: existing secondary-navigation grey reused for adequate text/year contrast; actual image dimensions recorded and below-first-image loading deferred without altering photo files; captions leave space for the existing gallery control; mobile contact columns adjusted to prevent excessive address wrapping.
+
+Validation for this revision: all 15 public pages inspected visually at desktop and mobile widths; 60 browser checks at 1440, 1024, 390 and 320 px passed. Local assets, anchors, fonts, gallery, navigation, sidebar scroll indicator, local-time clock, equal home image frames, retained CLAMP imagery, LATENT hero, contrast, metadata, and the two permitted PDF links verified. Original images/documents/fonts are unchanged. Missing factual evidence remains in the internal brief backlog. GitHub Pages deployment is checked after the main commit.

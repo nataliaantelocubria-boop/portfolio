@@ -51,3 +51,25 @@
 - CLAMP technical unknowns remain explicitly pending; no materials/techniques were invented.
 
 - 2026-10-01 — Approved: Selected Work images use one consistent size/alignment, following LATENT treatment. HOW I THINK, ABOUT and CONTACT remain unchanged. CLAMP shows supplied imagery without current-project-record link. GEMHYPE does not display PDF screenshots. STACK and SHINE category thumbnails updated.
+
+
+## 2026-10-02 — Strategic review / approved decision
+
+La identidad visual y la arquitectura general del portfolio web quedan consolidadas. No se realizará un nuevo rediseño general.
+
+Natalia se posicionará prioritariamente como Product Designer. Su conocimiento de materiales, fabricación, ingeniería, joyería, vidrio, craft y comunicación funcionará como ventaja transversal y evidencia de una práctica multidisciplinar, no como identidades profesionales competidoras.
+
+La evolución del portfolio se regirá por el principio EVIDENCE OVER CLAIMS: se priorizarán decisiones, pruebas, restricciones, problemas, procesos, documentación técnica y consecuencias reales frente a declaraciones abstractas sobre metodología o personalidad.
+
+Los nuevos proyectos se incorporarán únicamente cuando refuercen el posicionamiento o demuestren una capacidad profesional todavía insuficientemente representada.
+
+El portfolio evolucionará mediante selección y sustitución, no mediante acumulación.
+
+### Conflict resolution recorded before implementation
+- The previous 2026-10-02 revision expanded Selected Work to eight entries. This new explicit briefing specifies four and excludes GEMHYPE. The conflict was communicated before editing; the new selection supersedes the eight-entry content selection only. Full-width equal frames, the black title, margins and kitchen-context STACK cover remain.
+- Prior notes describing asymmetric home cards and more right-edge space are historical. The later approved equal-size/symmetric-margin decisions are retained; no asymmetry has been restored.
+- Earlier About-unchanged and preserve-concept-copy instructions are superseded only where this briefing explicitly authorises About rewriting and INSIDE OUT / INTERVAL / FALLA copy editing. Their visual layouts and photographic content remain.
+- GEMHYPE's earlier PDF screenshot removal remains approved. The strategic review condenses text to five sections and uses the existing original social mockup; the extracted PDF images are not reintroduced.
+- CLAMP's visible pending specification is removed; unresolved information is retained in the internal backlog, not invented.
+- The 2026-10-02 visual patch remains intact: no duplicated home opening image, circular sidebar scroll indicator, hidden desktop native scrollbar, local INTERVAL clock, CLAMP hero/thumbnail distinction, large LATENT hero and CV/GEMHYPE-only public PDF links.
+- Confirmed years remain INSIDE OUT 2026, STACK 2024, CLAMP 2026, INTERVAL 2025, LATENT 2025, FALLA 2025, SHINE 2020, GEMHYPE 2026. Original drawings may carry historical labels/dates; this does not silently change approved project facts.
