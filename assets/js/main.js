@@ -7,12 +7,12 @@
     var close = function () {
       nav.classList.remove('is-open');
       toggle.setAttribute('aria-expanded', 'false');
-      toggle.textContent = 'Menu';
+      toggle.textContent = document.documentElement.lang === 'es' ? 'Menú' : 'Menu';
     };
     toggle.addEventListener('click', function () {
       var open = nav.classList.toggle('is-open');
       toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-      toggle.textContent = open ? 'Close' : 'Menu';
+      toggle.textContent = document.documentElement.lang === 'es' ? (open ? 'Cerrar' : 'Menú') : (open ? 'Close' : 'Menu');
     });
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape' && nav.classList.contains('is-open')) { close(); toggle.focus(); }
@@ -36,20 +36,22 @@
 
 // Project image lightbox: all images inside project pages can be enlarged and browsed.
 (function () {
+  var spanish = document.documentElement.lang === 'es';
   var main = document.querySelector('main.content');
   if (!main || document.body.classList.contains('home')) return;
   var figures = Array.from(main.querySelectorAll('figure')).filter(function (f) { return f.querySelector('img'); });
   if (!figures.length) return;
   main.classList.add('project-gallery');
   var imgs = figures.map(function(f){ return f.querySelector('img'); });
-  var box = document.createElement('div'); box.className='lightbox'; box.setAttribute('role','dialog'); box.setAttribute('aria-modal','true'); box.setAttribute('aria-label','Image gallery');
+  var box = document.createElement('div'); box.className='lightbox'; box.setAttribute('role','dialog'); box.setAttribute('aria-modal','true'); box.setAttribute('aria-label',spanish ? 'Galería de imágenes' : 'Image gallery');
   box.innerHTML='<button class="lightbox-close" type="button">Close</button><button class="lightbox-prev" type="button" aria-label="Previous image">‹</button><img alt=""><button class="lightbox-next" type="button" aria-label="Next image">›</button><div class="lightbox-count"></div>';
+  if (spanish) { box.querySelector('.lightbox-close').textContent='Cerrar'; box.querySelector('.lightbox-prev').setAttribute('aria-label','Imagen anterior'); box.querySelector('.lightbox-next').setAttribute('aria-label','Imagen siguiente'); }
   document.body.appendChild(box);
   var big=box.querySelector('img'), count=box.querySelector('.lightbox-count'), i=0;
   function show(n){i=(n+imgs.length)%imgs.length; big.src=imgs[i].currentSrc||imgs[i].src; big.alt=imgs[i].alt||''; count.textContent=(i+1)+' / '+imgs.length;}
   function open(n){show(n);box.classList.add('is-open');document.body.style.overflow='hidden';box.querySelector('.lightbox-close').focus();}
   function close(){box.classList.remove('is-open');document.body.style.overflow='';}
-  figures.forEach(function(f,n){f.tabIndex=0;f.setAttribute('role','button');f.setAttribute('aria-label','Open image '+(n+1)+' in gallery');f.addEventListener('click',function(){open(n)});f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();open(n)}})});
+  figures.forEach(function(f,n){f.tabIndex=0;f.setAttribute('role','button');f.setAttribute('aria-label',spanish ? 'Abrir imagen '+(n+1)+' en la galería' : 'Open image '+(n+1)+' in gallery');f.addEventListener('click',function(){open(n)});f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();open(n)}})});
   box.querySelector('.lightbox-close').onclick=close; box.querySelector('.lightbox-prev').onclick=function(e){e.stopPropagation();show(i-1)}; box.querySelector('.lightbox-next').onclick=function(e){e.stopPropagation();show(i+1)};
   box.addEventListener('click',function(e){if(e.target===box)close()});
   document.addEventListener('keydown',function(e){if(!box.classList.contains('is-open'))return;if(e.key==='Escape')close();if(e.key==='ArrowLeft')show(i-1);if(e.key==='ArrowRight')show(i+1)});

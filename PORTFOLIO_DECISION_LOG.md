@@ -86,3 +86,11 @@ El portfolio evolucionará mediante selección y sustitución, no mediante acumu
 - Spanish and LSE native; English C1 / Cambridge B2 certified; German basic. Distinguish reported English level from certification.
 - GEMHYPE experience has no SEO claim. Additional Domino’s and Carrefour experience is preserved at lower weight. The 2020 Valladolid collaboration lists only the confirmed year, city and collaborator.
 - Contact uses only the existing email, LinkedIn and current CV PDF. No Instagram URL inferred. No dated availability statement added. Original CV PDF is preserved: its older advanced-software/SEO/availability wording is not reused as current web copy.
+
+
+## 2026-10-05 — English / Spanish language option
+- User request: “ME PUEDES CREAR LA OPCIÓN DE INGLES O ESPAÑOL EN LA WEB?”
+- Added full Spanish static counterparts of all 15 public pages under /es/, with an EN / ES selector linking to the same page in either language. Existing English routes and editorial design are preserved.
+- Navigation stays within the selected language; selectors work without JavaScript. Page language, descriptions, alt text, accessible menu/gallery controls and canonical / hreflang / Open Graph locale metadata are localised.
+- Project names, dates, institutions, original course/content titles, images, drawings, fonts and downloadable PDFs remain unchanged. Spanish copy preserves physical-piece versus visual-proposal distinctions and unfinished engineering studies.
+- The existing CV and GEMHYPE PDFs retain their original languages/content. No automatic translation of photographs, drawings or PDFs is implied. No additional public project PDF links.

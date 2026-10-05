@@ -97,3 +97,11 @@ El portfolio evolucionará mediante selección y sustitución, no mediante acumu
 - 2020 collaboration with Ana Llavador in Valladolid: exhibition, institution, piece name, materials/techniques and exact description. Basic confirmed facts are public; no missing specifications are claimed.
 - Availability: confirm current wording if desired; do not reuse September 2026's statement.
 - Downloadable CV: provide/approve a revised PDF if its older software-level, GEMHYPE SEO and dated-availability wording is to match the new About. This revision updates the web page, not the source PDF.
+
+
+## 2026-10-05 — English / Spanish language option
+- User request: “ME PUEDES CREAR LA OPCIÓN DE INGLES O ESPAÑOL EN LA WEB?”
+- Added full Spanish static counterparts of all 15 public pages under /es/, with an EN / ES selector linking to the same page in either language. Existing English routes and editorial design are preserved.
+- Navigation stays within the selected language; selectors work without JavaScript. Page language, descriptions, alt text, accessible menu/gallery controls and canonical / hreflang / Open Graph locale metadata are localised.
+- Project names, dates, institutions, original course/content titles, images, drawings, fonts and downloadable PDFs remain unchanged. Spanish copy preserves physical-piece versus visual-proposal distinctions and unfinished engineering studies.
+- The existing CV and GEMHYPE PDFs retain their original languages/content. No automatic translation of photographs, drawings or PDFs is implied. No additional public project PDF links.

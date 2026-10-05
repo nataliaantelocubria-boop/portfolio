@@ -149,3 +149,13 @@ Validation for this revision: all 15 public pages inspected visually at desktop 
 - Preserved downloadable CV and original assets. Missing course data, exhibition details, Instagram URL and Procreate level remain in the internal backlog.
 - About metadata updated; styling is scoped to About, without dependencies or new imagery.
 - QA completed before commit: full About reviewed visually in desktop and mobile captures; 35 browser page/viewport checks across all 15 public pages, with About also at 1024, 900, 760, 600 and 320 px. Verified exact software values/dots, eight sections, unfinished engineering wording, language levels, mobile menu, sidebar scroll/dot, portrait gallery, no-JS content, CV PDF, images/fonts, no overflow or console errors. Static audit verifies all relative routes/assets and CV/GEMHYPE-only PDF links. Original assets, all other HTML and JS are unchanged.
+
+
+## 2026-10-05 — English / Spanish language option
+- User request: “ME PUEDES CREAR LA OPCIÓN DE INGLES O ESPAÑOL EN LA WEB?”
+- Added full Spanish static counterparts of all 15 public pages under /es/, with an EN / ES selector linking to the same page in either language. Existing English routes and editorial design are preserved.
+- Navigation stays within the selected language; selectors work without JavaScript. Page language, descriptions, alt text, accessible menu/gallery controls and canonical / hreflang / Open Graph locale metadata are localised.
+- Project names, dates, institutions, original course/content titles, images, drawings, fonts and downloadable PDFs remain unchanged. Spanish copy preserves physical-piece versus visual-proposal distinctions and unfinished engineering studies.
+- The existing CV and GEMHYPE PDFs retain their original languages/content. No automatic translation of photographs, drawings or PDFs is implied. No additional public project PDF links.
+
+Validation: 90 browser page/viewport checks (all 30 pages at 1440, 390 and 320 px), Spanish desktop/mobile visual review, menu/gallery language, same-page switching, no-JavaScript switching, local-time clock, equal home frames, source asset paths and original CV/GEMHYPE-only PDF links passed. No console errors, broken images or horizontal overflow. Original assets unchanged. Published deployment verified after commit.

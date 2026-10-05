@@ -438,3 +438,9 @@ a,button,.project-gallery figure{cursor:url("data:image/svg+xml,%3Csvg xmlns='ht
   .about-software-dots i{width:5px;height:5px}
   .about-tool-name{font-size:16px}
 }
+
+/* Bilingual navigation: same page in English or Spanish, available without JS. */
+.language-switch{display:flex;justify-content:center;align-items:center;gap:8px;margin-top:28px;font-size:12px;letter-spacing:.06em}
+.language-switch a{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px}
+.language-switch a[aria-current="true"]{text-decoration:underline;text-underline-offset:5px}
+@media(max-width:900px){.language-switch{margin:0 0 0 auto;gap:0;order:0}.menu-toggle{order:1}.nav{order:2}.language-switch a{min-width:36px}.language-switch span{padding:0 2px}.site-header{column-gap:4px}}
