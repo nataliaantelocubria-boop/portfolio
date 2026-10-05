@@ -137,3 +137,15 @@ No comprobado: navegadores distintos de Chromium, dispositivos físicos, lectore
 - Technical QA corrections: existing secondary-navigation grey reused for adequate text/year contrast; actual image dimensions recorded and below-first-image loading deferred without altering photo files; captions leave space for the existing gallery control; mobile contact columns adjusted to prevent excessive address wrapping.
 
 Validation for this revision: all 15 public pages inspected visually at desktop and mobile widths; 60 browser checks at 1440, 1024, 390 and 320 px passed. Local assets, anchors, fonts, gallery, navigation, sidebar scroll indicator, local-time clock, equal home image frames, retained CLAMP imagery, LATENT hero, contrast, metadata, and the two permitted PDF links verified. Original images/documents/fonts are unchanged. Missing factual evidence remains in the internal brief backlog. GitHub Pages deployment is checked after the main commit.
+
+
+## 2026-10-05 — ABOUT / integrated web CV
+- Applied `Texto pegado(8).txt` as an About-only extension, keeping the site navigation, Home and projects unchanged.
+- Short editorial opening with the existing real atmospheric portrait; Background explains knowledge transfer without repeating HOW I THINK.
+- Added eight numbered editorial sections: Education, Additional Training, Experience, Software, Languages, Selected Activities & Exhibitions, Volunteering and Additional Information.
+- Added the four confirmed HP LIFE short courses. Related techniques/capabilities stay within their factual education/experience contexts. No general Skills section or CV menu entry.
+- Added exact supplied software self-assessments with ten dots and accessible numbers; Procreate has no invented level. LSE is visible with the other languages.
+- Engineering is explicitly unfinished; Erasmus and engineering dates are not transposed. GEMHYPE experience excludes SEO. No obsolete availability copied into About.
+- Preserved downloadable CV and original assets. Missing course data, exhibition details, Instagram URL and Procreate level remain in the internal backlog.
+- About metadata updated; styling is scoped to About, without dependencies or new imagery.
+- QA completed before commit: full About reviewed visually in desktop and mobile captures; 35 browser page/viewport checks across all 15 public pages, with About also at 1024, 900, 760, 600 and 320 px. Verified exact software values/dots, eight sections, unfinished engineering wording, language levels, mobile menu, sidebar scroll/dot, portrait gallery, no-JS content, CV PDF, images/fonts, no overflow or console errors. Static audit verifies all relative routes/assets and CV/GEMHYPE-only PDF links. Original assets, all other HTML and JS are unchanged.

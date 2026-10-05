@@ -73,3 +73,16 @@ El portfolio evolucionará mediante selección y sustitución, no mediante acumu
 - CLAMP's visible pending specification is removed; unresolved information is retained in the internal backlog, not invented.
 - The 2026-10-02 visual patch remains intact: no duplicated home opening image, circular sidebar scroll indicator, hidden desktop native scrollbar, local INTERVAL clock, CLAMP hero/thumbnail distinction, large LATENT hero and CV/GEMHYPE-only public PDF links.
 - Confirmed years remain INSIDE OUT 2026, STACK 2024, CLAMP 2026, INTERVAL 2025, LATENT 2025, FALLA 2025, SHINE 2020, GEMHYPE 2026. Original drawings may carry historical labels/dates; this does not silently change approved project facts.
+
+
+## 2026-10-05 — ABOUT / integrated web CV
+- Source: complete `Texto pegado(8).txt`; explicit user instruction “Añade estos cambios”. The new About architecture is an authorised page-specific extension of the previous brief, not a site-wide redesign.
+- ABOUT integrates Introduction / Background / Education / Additional Training / Experience / Software / Languages / Selected Activities & Exhibitions / Volunteering / Additional Information / Contact and Download Full CV. No CV menu item or separate page.
+- Keep Product Design as the main professional reading. Explain curiosity and knowledge transfer across engineering studies, glass, jewellery, gemology and product design without duplicating HOW I THINK's case studies.
+- Retain the actual portrait and atmospheric treatment, existing fonts/palette, symmetric outer margins, navigation, project content and prior visual corrections. New CSS is scoped to About components.
+- Dates: Product Design 2024–present (fourth year; coursework expected February 2027); Erasmus 2025–2026; engineering studies 2021–2024 through third year, not a completed degree; jewellery 2019–2021; glass 2018–2021. Ongoing studies first, then reverse chronology.
+- Skills belong to their education/experience context. No general skills block. HP LIFE's four 2026 certified short courses are confirmed by the supplied briefing; no certificate images or files fabricated.
+- Software values are Natalia's self-assessment: SolidWorks 7, Rhinoceros 5, AutoCAD 6, KeyShot 6, Illustrator 8, Photoshop 7, InDesign 7, Canva 9, Excel 9, Word 9, PowerPoint 9, all out of 10. Ten monochrome dots plus numeric/accessible text, without changing values. Procreate is named without assigning a level.
+- Spanish and LSE native; English C1 / Cambridge B2 certified; German basic. Distinguish reported English level from certification.
+- GEMHYPE experience has no SEO claim. Additional Domino’s and Carrefour experience is preserved at lower weight. The 2020 Valladolid collaboration lists only the confirmed year, city and collaborator.
+- Contact uses only the existing email, LinkedIn and current CV PDF. No Instagram URL inferred. No dated availability statement added. Original CV PDF is preserved: its older advanced-software/SEO/availability wording is not reused as current web copy.

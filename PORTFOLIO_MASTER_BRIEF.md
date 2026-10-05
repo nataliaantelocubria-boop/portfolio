@@ -73,3 +73,27 @@ El portfolio evolucionará mediante selección y sustitución, no mediante acumu
 - STACK: any future prototype, user-testing and manufacturing evidence; no missing evidence is implied to exist. Existing technical sheets include later source-document dates; retain the approved project year 2024, pending clarification of the documentation chronology.
 - GEMHYPE: standalone original profile/feed/story/reel/highlight assets if further visual evidence is wanted without reintroducing PDF screenshots; any actual implementation/results require separate confirmation.
 - Future Newgarden/Alzamora work: evaluate only after completed evidence is supplied. No projects or balancing category counts have been invented.
+
+
+## 2026-10-05 — ABOUT / integrated web CV
+- Source: complete `Texto pegado(8).txt`; explicit user instruction “Añade estos cambios”. The new About architecture is an authorised page-specific extension of the previous brief, not a site-wide redesign.
+- ABOUT integrates Introduction / Background / Education / Additional Training / Experience / Software / Languages / Selected Activities & Exhibitions / Volunteering / Additional Information / Contact and Download Full CV. No CV menu item or separate page.
+- Keep Product Design as the main professional reading. Explain curiosity and knowledge transfer across engineering studies, glass, jewellery, gemology and product design without duplicating HOW I THINK's case studies.
+- Retain the actual portrait and atmospheric treatment, existing fonts/palette, symmetric outer margins, navigation, project content and prior visual corrections. New CSS is scoped to About components.
+- Dates: Product Design 2024–present (fourth year; coursework expected February 2027); Erasmus 2025–2026; engineering studies 2021–2024 through third year, not a completed degree; jewellery 2019–2021; glass 2018–2021. Ongoing studies first, then reverse chronology.
+- Skills belong to their education/experience context. No general skills block. HP LIFE's four 2026 certified short courses are confirmed by the supplied briefing; no certificate images or files fabricated.
+- Software values are Natalia's self-assessment: SolidWorks 7, Rhinoceros 5, AutoCAD 6, KeyShot 6, Illustrator 8, Photoshop 7, InDesign 7, Canva 9, Excel 9, Word 9, PowerPoint 9, all out of 10. Ten monochrome dots plus numeric/accessible text, without changing values. Procreate is named without assigning a level.
+- Spanish and LSE native; English C1 / Cambridge B2 certified; German basic. Distinguish reported English level from certification.
+- GEMHYPE experience has no SEO claim. Additional Domino’s and Carrefour experience is preserved at lower weight. The 2020 Valladolid collaboration lists only the confirmed year, city and collaborator.
+- Contact uses only the existing email, LinkedIn and current CV PDF. No Instagram URL inferred. No dated availability statement added. Original CV PDF is preserved: its older advanced-software/SEO/availability wording is not reused as current web copy.
+
+### About-specific internal backlog — TODO — CONFIRM WITH NATALIA
+- Instagram: exact public profile URL. No placeholder or guessed link is public.
+- Procreate: self-assessed level; currently listed without a score.
+- Microsoft Office course: provider/platform and date; Interior Design: provider, exact title/date and approximately 10-hour duration.
+- Dublin intensive English B2 (2017): exact academy/course name.
+- Charo Acera volume/sculpture training (2015/2017/2018): exact course titles.
+- Universidad de León veterinary-assistant and ethology/dog-training courses (2018): exact names/provider details before publication. Do not substitute similar online search results.
+- 2020 collaboration with Ana Llavador in Valladolid: exhibition, institution, piece name, materials/techniques and exact description. Basic confirmed facts are public; no missing specifications are claimed.
+- Availability: confirm current wording if desired; do not reuse September 2026's statement.
+- Downloadable CV: provide/approve a revised PDF if its older software-level, GEMHYPE SEO and dated-availability wording is to match the new About. This revision updates the web page, not the source PDF.
